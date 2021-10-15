@@ -1,0 +1,2 @@
+1. The bug is num1 and num2 are assigned to be string types so when result is assigned num1 + num2 it just does string concatenation rather than actual arithmetic addition.
+2. I would fix it by explicitly defining the type of num1 and num2 to be Number as we add the two together for the result variable
